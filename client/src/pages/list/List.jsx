@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from '../../components/header/Header'
+import Navbar from '../../components/navbar/Navbar'
 import './list.css'
 function List() {
   return (
     <div>
-      <h1>hola soy una lista</h1>
+      <Navbar/>
+      <Header type="list"/>
     </div>
   )
 }
