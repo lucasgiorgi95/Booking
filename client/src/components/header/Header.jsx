@@ -6,7 +6,7 @@ import CarRentalIcon from '@mui/icons-material/CarRental';
 import LocalHotelIcon from '@mui/icons-material/LocalHotel';
 import LocalTaxiIcon from '@mui/icons-material/LocalTaxi';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
-import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
+import PersonIcon from '@mui/icons-material/Person';
 import { DateRange } from 'react-date-range';
 import 'react-date-range/dist/styles.css'; // main css file
 import 'react-date-range/dist/theme/default.css'; // theme css file
@@ -89,7 +89,7 @@ const Header = ({type}) => {
                     />}
                 </div>
                 <div className="headerSearchItems">
-                    <EmojiPeopleIcon className='headerIcon'/>
+                    <PersonIcon className='headerIcon'/>
                     <span  className='headerSearchText' onClick={()=>setOpenOption(!openOption)} >{`${option.adult} adult - ${option.children} children - ${option.room} room`}</span>
                     {openOption && <div className="options">
                         <div className="optionsItem">
