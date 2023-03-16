@@ -12,10 +12,10 @@ import './list.css'
 function List() {
 
   const location = useLocation()
-  const [destination, setDestination] = useState(location.state.destination)
+  const [destination, /*setDestination*/] = useState(location.state.destination)
   const [date, setDate] = useState(location.state.date)
   const [openDate, setOpenDate] = useState(false)
-  const [option, setOption] = useState(location.state.option)
+  const [option, /*setOption*/] = useState(location.state.option)
 
   console.log(location)
 
